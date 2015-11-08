@@ -2,6 +2,12 @@
 
 Huddle.com OAuth2 login service for use with Meteor Accounts.
 
+### Huddle API
+Before usage, be sure to get access to the Huddle API. You'll need to contact their API team with some basic information in order to obtain access to an API key. You can get started on that by visiting the [Huddle API docs](https://login.huddle.net/docs/index.html).
+
+Be sure to provide exact redirect URIs in the following format:
+`http://yoursiteurl.xyz/_oauth/huddle?close`
+
 ### Package Dependencies
 
 * accounts-base
