@@ -2,6 +2,7 @@ Package.describe({
   name: 'typ:accounts-huddle',
   summary: 'OAuth2 integration with Huddle',
   version: '0.0.1',
+  documentation: './README.md',
   git: 'https://github.com/typ90/meteor-accounts-huddle'
 });
 
